@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.budgetshield.R
+import com.example.budgetshield.data.RecordModel
 import com.example.budgetshield.databinding.FragmentDashboardBinding
 
 class FragmentDash : Fragment() {

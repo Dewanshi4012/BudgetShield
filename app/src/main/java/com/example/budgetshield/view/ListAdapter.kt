@@ -3,10 +3,10 @@ package com.example.budgetshield.view
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.budgetshield.R
+import com.example.budgetshield.data.RecordModel
 
 class ListAdapter(private val listMembers: List<RecordModel>) : RecyclerView.Adapter<ListAdapter.ViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListAdapter.ViewHolder {
