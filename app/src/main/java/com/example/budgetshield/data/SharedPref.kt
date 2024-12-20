@@ -17,23 +17,15 @@ class SharedPref (context: Context) {
             apply()
         }
     }
-
-    // Retrieve email
     fun getUserEmail(): String? {
         return sharedPreferences.getString("userEmail", "No Email")
     }
-
-    // Retrieve name
     fun getUserName(): String? {
         return sharedPreferences.getString("userName", "No Name")
     }
-
-    // Check login status
     fun isLoggedIn(): Boolean {
         return sharedPreferences.getBoolean("isLoggedIn", false)
     }
-
-    // Clear all saved data (e.g., during logout)
     fun clearData() {
         sharedPreferences.edit().clear().apply()
     }
