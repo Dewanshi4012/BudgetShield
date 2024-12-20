@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".budgetshield.MainActivity">
+    tools:context=".view.MainActivity">
 
     <LinearLayout
         android:id="@+id/linear_layout1a"
@@ -53,7 +53,7 @@
             tools:listitem="@layout/item_member"/>
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/AddNewbutton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="+ Add New"
